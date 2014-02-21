@@ -1,5 +1,9 @@
 Revision history for Task-BeLike-XAERXESS
 
+0.002  2014-02-21 16:16:35 CET
+
+ - Used warnings (as per http://cpants.cpanauthors.org/kwalitee/use_warnings)
+
 0.001  2014-01-31 20:24:12 CET
 
  - Initial release - first module bundle I like and use
