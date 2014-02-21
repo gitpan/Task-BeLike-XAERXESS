@@ -21,6 +21,12 @@ no_index:
     - share
     - eg
     - examples
+optional_features:
+  5.14:
+    description: 'Modules which require Perl 5.14'
+    requires:
+      Moops: 0
+      perl: 5.014
 requires:
   Code::TidyAll: 0
   Const::Fast: 0
@@ -31,7 +37,6 @@ requires:
   List::Gen: 0
   List::MoreUtils: 0
   Minilla: 0
-  Moops: 0
   Plack: 1
   Smart::Match: 0
   Try::Tiny: 0
@@ -41,4 +46,4 @@ resources:
   bugtracker: https://github.com/Xaerxess/Task-BeLike-XAERXESS/issues
   homepage: https://github.com/Xaerxess/Task-BeLike-XAERXESS
   repository: https://github.com/Xaerxess/Task-BeLike-XAERXESS.git
-version: 0.002
+version: 0.003

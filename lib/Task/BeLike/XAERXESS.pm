@@ -3,7 +3,7 @@ package Task::BeLike::XAERXESS;
 use strict;
 use warnings;
 use 5.008_005;
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 
 1;
 __END__
@@ -21,6 +21,18 @@ Task::BeLike::XAERXESS - Just few modules I use, or like, or both.
 =head1 DESCRIPTION
 
 This L<Task> module installs modules I use frequently.
+
+See C<cpanfile> in this distribution for details.
+
+=head1 CAVEATS
+
+=over 4
+
+=item * L<Dist::Zilla>, which has quite many dependencies, is installed in this Task and thus installation can possibly last few minutes.
+
+=item * Because L<Net::SSLeay> is installed as one of L<Dist::Zilla> dependencies, L<OpenSSL|http://www.openssl.org> sources are required. On Debian or Ubuntu, you can install them using APT via command C<< sudo apt-get install libssl-deb >>.
+
+=back
 
 =head1 AUTHOR
 

@@ -1,5 +1,10 @@
 Revision history for Task-BeLike-XAERXESS
 
+0.003  2014-02-21 19:22:01 CET
+
+ - Added new '5.14' feature in cpanfile which installs Moops
+ - Improved documentation
+
 0.002  2014-02-21 16:16:35 CET
 
  - Used warnings (as per http://cpants.cpanauthors.org/kwalitee/use_warnings)
