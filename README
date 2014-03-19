@@ -14,9 +14,8 @@ CAVEATS
         Task and thus installation can possibly last few minutes.
 
     *   Because Net::SSLeay is installed as one of Dist::Zilla dependencies,
-        OpenSSL <http://www.openssl.org> sources are required. On Debian or
-        Ubuntu, you can install them using APT via command "sudo apt-get
-        install libssl-deb".
+        <OpenSSL> sources are required. On Debian or Ubuntu, you can install
+        them using APT via command "sudo apt-get install libssl-dev".
 
 AUTHOR
     Grzegorz Rożniecki <xaerxess@gmail.com>

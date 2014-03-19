@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   Module::Build::Tiny: 0.030
 dynamic_config: 0
-generated_by: 'Dist::Milla version v1.0.4, Dist::Zilla version 5.006, CPAN::Meta::Converter version 2.133380'
+generated_by: 'Dist::Milla version v1.0.4, Dist::Zilla version 5.008, CPAN::Meta::Converter version 2.140640'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -27,6 +27,9 @@ optional_features:
     requires:
       Moops: 0
       perl: 5.014
+recommends:
+  JSON::XS: '< 3'
+  YAML::XS: 0
 requires:
   Code::TidyAll: 0
   Const::Fast: 0
@@ -34,16 +37,19 @@ requires:
   Dancer2: 0
   Dist::Milla: 0
   Dist::Zilla: 5
+  JSON: 0
+  List::AllUtils: 0
   List::Gen: 0
-  List::MoreUtils: 0
   Minilla: 0
+  Moo: 1
   Plack: 1
   Smart::Match: 0
   Try::Tiny: 0
+  YAML: 0
   experimental: 0
   perl: 5.008005
 resources:
   bugtracker: https://github.com/Xaerxess/Task-BeLike-XAERXESS/issues
   homepage: https://github.com/Xaerxess/Task-BeLike-XAERXESS
   repository: https://github.com/Xaerxess/Task-BeLike-XAERXESS.git
-version: 0.003
+version: 0.004
